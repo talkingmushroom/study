@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+ <form action="#" method="post">
+      <label for="name">고객명:</label>
+      <input type="text" id="name" name="name" / required>
+      
+      <br /><br />
+
+      <label for="Phone">전화번호:</label>
+      <input type="tel" id="Phone" name="Phone" / required>
+
+      <br /><br />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" / required>
+
+      <br /><br />
+
+      <label for="select">피자선택:</label>
+		<select name="pizzaselect" id="pizzaselect">
+            <option value="select">피자를 선택하세요</option>
+			<option value="cheesepizza">치즈피자</option>
+			<option value="hurryup">허리피자</option>
+			<option value="shoulder">어깨피자</option>
+		</select>
+
+      <fieldset>
+        <legend>피자 사이즈</legend>
+            <input type="radio" id="small" name="size" / required>Small
+
+            <br /><br />
+
+            <input type="radio" id="mideum" name="size" / required>Mideum
+
+            <br /><br />
+
+            <input type="radio" id="large" name="size" / required>Large
+
+            <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>토핑 선택</legend>
+            <input type="checkbox" id="bacon" name="topping" / required>베이컨
+
+            <br /><br />
+
+            <input type="checkbox" id="cheese" name="topping" / required>치즈
+
+            <br /><br />
+      
+            <input type="checkbox" id="onion" name="topping" / required>양파
+
+            <br /><br />
+
+            <input type="checkbox" id="mushroom" name="topping" / required>버섯
+
+            <br /><br />
+      </fieldset>
+
+      <br /><br />
+
+      <label for="time">희망배송시간:</label>
+      <input type="time" id="delivery" name="delivery" / required>
+
+      <br /><br />
+
+      <label for="text">배송시 요청사항:</label>
+      <input type="text" id="di" name="text" / required>
+
+      <br /><br />
+
+      <input type="submit" value="주문하기" />
+
+  </body>
+</html>
+
+질문 피자 선택을 안 고르면 못 넘어가게 하는 법, 토핑 선택에서 다 눌러야만 제출 가능한 이유
