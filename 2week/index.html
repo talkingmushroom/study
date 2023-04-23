@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>main</h1>
+    <!-- <h1>main</h1>
     <h2>궁뎅이</h2>
     <h3>누구세요</h3>
     <h4>니가 뭘 알아</h4>
@@ -45,5 +45,54 @@
       <dt>orange</dt>
       <dd>orange is fruit</dd>
     </dl>
+    <iframe width="560" height="315" src="https://www.nate.com" frameborder="0"></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/vWFFv-3Fr0w"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe> -->
+    <form action="#" method="post">
+      <label for="name">이름:</label>
+      <input type="text" id="name" name="name" / required>
+
+      <br /><br />
+
+      <label for="email">이메일:</label>
+      <input type="email" id="email" name="email" / required>
+
+      <br /><br />
+
+      <label for="password">비밀번호:</label>
+      <input type="password" id="password" name="password" / required>
+
+      <br /><br />
+
+      <label for="checkbox">좋아하는 동물:</label>
+      <input type="checkbox" id="checkbox" name="PUPPY" /><label for="PUPPY">강아지</label>
+      <input type="checkbox" id="checkbox" name="KITTY" /><label for="KITTY">고양이</label>
+
+      <br /><br />
+
+      <label>당신은 사람입니까?:</label><br />
+      <input type="radio" id="yes" name="person" /><label for="yes">yes</label>
+      <input type="radio" id="no" name="person" /><label for="no">no</label>
+
+      <br /><br />
+
+      <label for="file">파일:</label>
+      <input type="file" id="file" name="file" accept="image/png" / >
+
+      <br /><br />
+      <input type="number" id="number" name="number" / >
+
+      <br /><br />
+
+      <input type="reset" value="리셋" />
+      <input type="submit" value="제출" />
+    </form>
   </body>
 </html>
