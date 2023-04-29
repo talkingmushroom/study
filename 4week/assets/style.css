@@ -1,0 +1,117 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&family=Poor+Story&display=swap');
+/* common */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+body {
+    height: 100vh;
+}
+/* 메인페이지 */
+header {
+    padding: 30px;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+
+
+.title {
+    padding: 30px;
+}
+
+.blog-list-wrap {
+    padding: 30px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title1 {
+    background-color: #fff;
+    box-shadow: 2px 4px 7px;
+    border-radius: 10px;
+    padding: 20px
+}
+
+.title2 {
+    background-color: #fff;
+    box-shadow: 2px 4px 7px;
+    border-radius: 10px;
+    padding: 20px
+}
+
+.title3 {
+    background-color: #fff;
+    box-shadow: 2px 4px 7px;
+    border-radius: 10px;
+    padding: 20px
+}
+
+main {
+    height: 100%;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+
+#hometitle {
+    color: rgb(85, 85, 85)
+}
+
+
+footer {
+    color: #fff;
+    background-color: rgb(88, 88, 88);
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+}
+
+small {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(56, 129, 52)
+}
+
+.gmb {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    border-bottom: 3px solid rgb(85, 85, 85);
+}
+
+#cb {
+color:rgb(255, 170, 0)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
