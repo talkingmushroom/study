@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&family=Poor+Story&display=swap'); */
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url("/5week/assets/NetflixSans_W_Rg.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url("/5week/assets/NetflixSans_W_Md.woff2") format("wooff2");
+    font-weight: 500;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Netflix Sans', 'Helvetica Neue',' Segoe UI', Roboto, Ubuntu, 'sans-serif';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+/* 메인페이지 */
+
+header {
+    display: flex;
+    border: 1px solid violet;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h1 {
+    display: block;
+    width: 92.5px;
+    height: 30px;
+    border: 1px solid red
+}
+
+h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue
+}
+
+h1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.headstart {
+    display: flex;
+    width: 570px;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.gmb {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    font-size: 15px;
+    border: 1px solid blue
+}
+
+.upperright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 15px;
+    border: 1px solid yellow
+}
+
+main {
+    height: 100%;
+    background-image: url(/5week/assets/queenmaker\ main.webp);
+    background-size: cover;
+}
+
+#main-queenmaker-text {
+    padding-left: 10px;
+    padding-top: 330px;
+}
+
+.m-q-d {
+    width: 580px;
+    border: 1px solid rgb(255, 0, 195)
+}
+
+#foreign-series {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.content {
+ display: flex;
+ gap: .5rem;
+ overflow-x: scroll;
+ scroll-behavior: smooth;
+}
