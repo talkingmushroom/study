@@ -7,6 +7,9 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="assets/styles/normalize.css" />
     <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   </head>
   <body>
     <header class="flex-box">
@@ -54,10 +57,65 @@
           치유할 뜻밖의 여정이 시작된다.
         </p>
         <div class="flex-box btn-box">
-          <button type="button">예고편</button>
-          <button type="button"><span>내가 찜한 콘텐츠</span></button>
+          <button type="button" id="jaesaeng">재생</button>
+          <button type="button" id="zzim"><span>내가 찜한 콘텐츠</span></button>
         </div>
       </div>
     </div>
+    <div class="swiper" id="sp1">
+      <p id="sp1p">최신 등록 콘텐츠</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/assets/img/img-7.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-2.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-3.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-5.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-6.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-9.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-8.webp" alt="" /></div>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="fa-solid fa-arrow-right"></i>
+        <div class="material-icons"><img src="/assets/img/img-30.png" alt="" /></div>
+      </div>
+      <div class="swiper-button-next">
+        <div class="material-icons"><img src="/assets/img/img-31.png" alt="" /></div>
+      </div>
+    </div>
+    <div class="swiper">
+      <p id="spp">내가 찜한 콘텐츠</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/assets/img/img-11.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-12.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-20.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-15.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-16.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-19.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-18.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-21.webp" alt="" /></div>
+        <div class="swiper-slide"><img src="/assets/img/img-23.webp" alt="" /></div>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="fa-solid fa-arrow-right"></i>
+        <div class="material-icons"><img src="/assets/img/img-30.png" alt="" /></div>
+      </div>
+      <div class="swiper-button-next">
+        <div class="material-icons"><img src="/assets/img/img-31.png" alt="" /></div>
+      </div>
+    </div>
+    <script>
+      new Swiper('.swiper', {
+        autoplay: false,
+        loop: false,
+        slidesPerView: 5,
+        spaceBetween: 10,
+        centeredSlides: false,
+        allowTouchMove: false,
+        slidesPerGroup: 5,
+        navigation: {
+          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next',
+        },
+      });
+    </script>
   </body>
 </html>
