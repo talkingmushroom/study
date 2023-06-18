@@ -121,3 +121,67 @@ padding-bottom: 100px;
     font-size: 50px;
     
 }
+
+@media (max-width: 768px) {
+    #moBtn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 24px;
+            border: 1px solid red;
+        }
+    
+        #moBtn span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #fff;
+        }
+
+        header.flex-box {
+            justify-content: flex-start;
+        }
+
+        .profile-wrap,
+        .visual,
+        .swiper {
+            display: none;
+        }
+
+        nav {
+            position: fixed;
+            top: 68px;
+            left: -100%;
+            height: 100%;
+            background-color: gray;
+            transition: .5s;
+        }
+
+        nav.on {
+            left: 0;
+        }
+
+        nav ul {
+            flex-direction: column;
+        }
+
+        nav ul li {
+            width: 100%;
+        }
+
+        nav ul li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+
+        nav ul li.on a {
+            border-left: 2px solid red;
+        }
+
+        header nav ul {
+            gap: 0;
+        }
+}
